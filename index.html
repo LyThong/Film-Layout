@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="css/css.css">
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="header-logo"><img src="img/web-logo.png" alt="">
+        </a>
+        <nav class="header-nav">
+            <ul>
+                <li class="active"><a href="">Lịch Chiếu</a></li>
+                <li><a href="">Cụm Rạp </a></li>
+                <li><a href="">Tin Tức</a></li>
+                <li><a href="">Ứng Dụng</a></li>
+            </ul>
+        </nav>
+        <a href="" class="header-login">
+            <i class="fa fa-user-circle"></i>
+            <span>Đăng Nhập</span>
+        </a>
+
+    </header>
+    <section id="carousel">
+        <!-- Swiper -->
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="img/backgroud-aquaman.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="img/backgroud-1.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="img/backgroud-2.jpg" alt=""></div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+
+        </div>
+    </section>
+    <section id="movie">
+        <h1 class="section-title">
+            <span class="active">ĐANG CHIẾU</span>
+            <span>SẮP CHIẾU</span>
+        </h1>
+        <div class="movie-content">
+            <div class="owl-carousel owl-theme">
+                <div class="movie-item item">
+                    <img src="img/hon-papa-da-con-gai-15444352018093_220x310.jpg" alt="">
+                    <p>Hồn Papa, Da Con Gái</p>
+                    <button class="btn-read-more">Xem Thêm</button>
+                </div>
+                <div class="movie-item item">
+                    <img src="img/aquaman-de-vuong-atlantis-c13-15444120205494_220x310.jpg" alt="">
+                    <p>Aquaman: Đế Vương </p>
+                    <button class="btn-read-more">Xem Thêm</button>
+                </div>
+                <div class="movie-item item">
+                    <img src="img/mary-poppins-tro-lai-15453030558820_220x310.jpg" alt="">
+                    <p>Mary Poppins Trở Lại</p>
+                    <button class="btn-read-more">Xem Thêm</button>
+                </div>
+                <div class="movie-item item">
+                    <img src="img/gang-to-tai-xuat-unstoppable-15446034331413_220x310.jpg" alt="">
+                    <p>Găng Tơ Tái Xuất </p>
+                    <button class="btn-read-more">Xem Thêm</button>
+                </div>
+                <div class="movie-item item">
+                    <img src="img/buc-anh-quy-am-viral-15446868113559_220x310.jpg" alt="">
+                    <p>Bức Ảnh Quỷ Ám - Viral</p>
+                    <button class="btn-read-more">Xem Thêm</button>
+                </div>
+                <div class="movie-item item">
+                    <img src="img/asterix-bi-kip-luyen-than-duoc-15446856146255_220x310.jpg" alt="">
+                    <p> Bí Kíp Luyện Thần Dược</p>
+                    <button class="btn-read-more">Xem Thêm</button>
+                </div>
+                <div class="movie-item item">
+                    <img src="img/gai-gia-lam-chieu-2-15411439106331_220x310.jpg" alt="">
+                    <p>Gái Già Lắm Chiêu 2</p>
+                    <button class="btn-read-more">Xem Thêm</button>
+                </div>
+                <div class="movie-item item">
+                    <img src="img/khong-gia-dinh-remi-nobody-s-boy-15426853003674_220x310.jpg" alt="">
+                    <p>Không Gia Đình </p>
+                    <button class="btn-read-more">Xem Thêm</button>
+                </div>
+                <div class="movie-item item">
+                    <img src="img/bong-dung-lam-sep-second-act-c13-15457115913070_220x310.jpg" alt="">
+                    <p>Bỗng Dưng Làm Sếp </p>
+                    <button class="btn-read-more">Xem Thêm</button>
+                </div>
+            </div>
+            <!-- 
+            -->
+        </div>
+    </section>
+    <section id="news">
+        <h1 class="section-title">
+            <span class="active">Điện Ảnh</span>
+            <span>Review</span>
+            <span>Khuyến Mãi</span>
+        </h1>
+        <div class="news-content">
+            <div class="news-item"></div>
+        </div>
+    </section>
+    <!-- jquery  -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+    <!-- swiper -->
+    <script src="js/swiper.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            loop:true,
+            autoplay:true,
+
+
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            pagination: {
+                el: '.swiper-pagination',
+            },
+
+        })
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 5
+                }
+            }
+        })
+
+    </script>
+    <!-- <script>
+       </script> -->
+    <script src="js/owl.carousel.min.js"></script>
+</body>
+
+</html>
