@@ -6,10 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="css/set1-input.css">
+    <link rel="stylesheet" href="css/demo.css">
+    <link rel="stylesheet" href="css/lightbox.min.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/swiper.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
     <link rel="stylesheet" href="css/css.css">
+    <link rel="stylesheet" href="css/set1.css">
 </head>
 
 <body>
@@ -20,7 +24,7 @@
             <ul>
                 <li class="active"><a href="">Lịch Chiếu</a></li>
                 <li><a href="">Cụm Rạp </a></li>
-                <li><a href="">Tin Tức</a></li>
+                <li><a href="#movie" >Tin Tức</a></li>
                 <li><a href="">Ứng Dụng</a></li>
             </ul>
         </nav>
@@ -103,12 +107,147 @@
     </section>
     <section id="news">
         <h1 class="section-title">
-            <span class="active">Điện Ảnh</span>
-            <span>Review</span>
-            <span>Khuyến Mãi</span>
+            <span data-filter=".dienanh" class="active">Điện Ảnh</span>
+            <span data-filter=".review">Review</span>
+            <span data-filter=".deal">Khuyến Mãi</span>
         </h1>
         <div class="news-content">
-            <div class="news-item"></div>
+            <div class="grid mix dienanh">
+                <a href="img/hinh1.jpg" data-lightbox="gallary1">
+                    <figure class="effect-ruby">
+                        <img src="img/hinh1.jpg" alt="img13" />
+                        <figcaption>
+                            <h2>Glowing <span>Ruby</span></h2>
+                            <p>Ruby did not need any help. Everybody knew that.</p>
+                        </figcaption>
+                    </figure>
+                </a>
+            </div>
+            <div class="grid mix dienanh">
+                <a href="img/hinh2.jpg" data-lightbox="gallary1">
+                    <figure class="effect-ruby">
+                        <img src="img/hinh2.jpg" alt="img13" />
+                        <figcaption>
+                            <h2>Glowing <span>Ruby</span></h2>
+                            <p>Ruby did not need any help. Everybody knew that.</p>
+                        </figcaption>
+                    </figure>
+                </a>
+            </div>
+            <div class="grid mix dienanh">
+                <a href="img/hinh3.jpg" data-lightbox="gallary1">
+                    <figure class="effect-ruby">
+                        <img src="img/hinh3.jpg" alt="img13" />
+                        <figcaption>
+                            <h2>Glowing <span>Ruby</span></h2>
+                            <p>Ruby did not need any help. Everybody knew that.</p>
+                        </figcaption>
+                    </figure>
+                </a>
+            </div>
+            <div class="grid mix review">
+                <a href="img/hinh4.jpg" data-lightbox="gallary1">
+                    <figure class="effect-ruby">
+                        <img src="img/hinh4.jpg" alt="img13" />
+                        <figcaption>
+                            <h2>Glowing <span>Ruby</span></h2>
+                            <p>Ruby did not need any help. Everybody knew that.</p>
+                        </figcaption>
+                    </figure>
+                </a>
+            </div>
+            <div class="grid mix review">
+                <a href="img/hinh5.jpg" data-lightbox="gallary1">
+                    <figure class="effect-ruby">
+                        <img src="img/hinh5.jpg" alt="img13" />
+                        <figcaption>
+                            <h2>Glowing <span>Ruby</span></h2>
+                            <p>Ruby did not need any help. Everybody knew that.</p>
+                        </figcaption>
+                    </figure>
+                </a>
+            </div>
+            <div class="grid mix review">
+                <a href="img/hinh6.jpg" data-lightbox="gallary1">
+                    <figure class="effect-ruby">
+                        <img src="img/hinh6.jpg" alt="img13" />
+                        <figcaption>
+                            <h2>Glowing <span>Ruby</span></h2>
+                            <p>Ruby did not need any help. Everybody knew that.</p>
+                        </figcaption>
+                    </figure>
+                </a>
+            </div>
+            <div class="grid mix deal">
+                <a href="img/hinh7.jpg" data-lightbox="gallary1">
+                    <figure class="effect-ruby">
+                        <img src="img/hinh7.jpg" alt="img13" />
+                        <figcaption>
+                            <h2>Glowing <span>Ruby</span></h2>
+                            <p>Ruby did not need any help. Everybody knew that.</p>
+                        </figcaption>
+                    </figure>
+                </a>
+            </div>
+            <div class="grid mix deal">
+                <a href="img/hinh8.jpg" data-lightbox="gallary1">
+                    <figure class="effect-ruby">
+                        <img src="img/hinh8.jpg" alt="img13" />
+                        <figcaption>
+                            <h2>Glowing <span>Ruby</span></h2>
+                            <p>Ruby did not need any help. Everybody knew that.</p>
+                        </figcaption>
+                    </figure>
+                </a>
+            </div>
+            <div class="grid mix deal">
+                <a href="img/hinh9.jpg" data-lightbox="gallary1">
+                    <figure class="effect-ruby">
+                        <img src="img/hinh9.jpg" alt="img13" />
+                        <figcaption>
+                            <h2>Glowing <span>Ruby</span></h2>
+                            <p>Ruby did not need any help. Everybody knew that.</p>
+                        </figcaption>
+                    </figure>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="contact">
+        <h1 class="section-title">CONTACT US</h1>
+        <div class="contact-content">
+            <div class="contact-form">
+                <h2>Feel free to me contact to me</h2>
+                <form action="">
+                    <span class="input input--hoshi">
+                        <input class="input__field input__field--hoshi" type="text" id="input-4" />
+                        <label class="input__label input__label--hoshi input__label--hoshi-color-1" for="input-4">
+                            <span class="input__label-content input__label-content--hoshi">Name</span>
+                        </label>
+                    </span>
+                    <span class="input input--hoshi">
+                        <input class="input__field input__field--hoshi" type="text" id="input-4" />
+                        <label class="input__label input__label--hoshi input__label--hoshi-color-1" for="input-4">
+                            <span class="input__label-content input__label-content--hoshi">Subject</span>
+                        </label>
+                    </span>
+                    <span class="input input--hoshi">
+                        <input class="input__field input__field--hoshi" type="text" id="input-4" />
+                        <label class="input__label input__label--hoshi input__label--hoshi-color-1" for="input-4">
+                            <span class="input__label-content input__label-content--hoshi">Email</span>
+                        </label>
+                    </span>
+                    <span class="input input--hoshi">
+                        <input class="input__field input__field--hoshi" type="text" id="input-4" />
+                        <label class="input__label input__label--hoshi input__label--hoshi-color-1" for="input-4">
+                            <span class="input__label-content input__label-content--hoshi">Messger</span>
+                        </label>
+                    </span>
+                    <button class="btn-contact">Summit</button>
+                </form>
+            </div>
+            <div class="contact-info"></div>
+
         </div>
     </section>
     <!-- jquery  -->
@@ -116,11 +255,17 @@
         crossorigin="anonymous"></script>
     <!-- swiper -->
     <script src="js/swiper.min.js"></script>
+    <script src="js/navbar-fixed.js"></script>
+    <script src="js/lightbox.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
+    <script src="js/mixitup.min.js">
+
+    </script>
+    <script src="js/classie.js"></script>
     <script>
         var swiper = new Swiper('.swiper-container', {
-            loop:true,
-            autoplay:true,
+            loop: true,
+            autoplay: true,
 
 
             navigation: {
@@ -149,7 +294,44 @@
             }
         })
 
+            (function () {
+                // trim polyfill : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/Trim
+                if (!String.prototype.trim) {
+                    (function () {
+                        // Make sure we trim BOM and NBSP
+                        var rtrim = /^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g;
+                        String.prototype.trim = function () {
+                            return this.replace(rtrim, '');
+                        };
+                    })();
+                }
+
+                [].slice.call(document.querySelectorAll('input.input__field')).forEach(function (inputEl) {
+                    // in case the input is already filled..
+                    if (inputEl.value.trim() !== '') {
+                        classie.add(inputEl.parentNode, 'input--filled');
+                    }
+
+                    // events:
+                    inputEl.addEventListener('focus', onInputFocus);
+                    inputEl.addEventListener('blur', onInputBlur);
+                });
+
+                function onInputFocus(ev) {
+                    classie.add(ev.target.parentNode, 'input--filled');
+                }
+
+                function onInputBlur(ev) {
+                    if (ev.target.value.trim() === '') {
+                        classie.remove(ev.target.parentNode, 'input--filled');
+                    }
+                }
+            })();
+
+        var mixer = mixiup('.news-content');
+        mixer.filter('.dienanh');
     </script>
+
     <!-- <script>
        </script> -->
     <script src="js/owl.carousel.min.js"></script>

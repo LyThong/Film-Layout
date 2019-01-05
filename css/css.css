@@ -135,6 +135,74 @@ html{
 .news-content{
     display: grid;
     grid-template-columns:repeat(3, 1fr);
-    grid-auto-rows: minmax(300px,auto);
+    grid-auto-rows: minmax(270px,auto);
     padding: 0 10%;
+    grid-gap: 10px;
+}
+.news-content a{
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+/* customize hover effect */
+
+.news-content .grid{
+
+    padding: 0;
+
+}
+.news-content .grid figure{
+    min-width: unset;
+    max-width: unset;
+    width: 100%;
+    margin: 0;
+    height: 100%;
+}
+.news-content figure.effect-ruby p{
+    padding: 1rem;
+}
+.contact .section-title{
+    color: white;
+}
+.contact-form{
+    background-color: white;
+
+}
+.contact-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+    padding: 0 20%;
+}
+.contact{
+    background-image: url('../img/hinhnen1.jpg');
+    /* background: no-repeat; */
+    /* background: center center; */
+    background-size: cover;
+    /* backgroud không thây đổi vị trí */
+    /* backgroud paralax */
+    background-attachment: fixed;
+}
+.contact-form h2{
+    text-align: center;
+}
+.contact-form .input__field--hoshi{
+    font-size: 1.1rem;
+    font-weight: normal;
+}
+.input__label--hoshi-color-1::after{
+    color: #fa5238;
+    border-bottom: 2px solid #fa5238;
+}
+.contact-content .contact-form{
+
+    text-align: center;
+}
+.btn-contact{
+    background-color: #fa5238;
+    border: none;
+    color: white;
+    padding: 0.7rem 2rem;
+    border-radius: 5px;
 }
